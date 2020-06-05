@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dateTimeConvertor.css">
+</head>
+<body>
+    <header>Time Zone Conversion</header>
+    <main>
+        <p>This is only a trial project. This is made for test purpose Only. It might not provide the exact result <br/> <strong>Note:- </strong>Date Time Input Might Not Work in Firefox. Advised to Use chrome or Edge</p>
+        <div class="container">
+            <div class="container1">
+                <div id="timeZone1" class="timeZone">
+                    <h3>Time Zone 1</h3>
+                    <form onsubmit="return changeDate(1)">
+                        <label for="time1">Please Enter the Time</label>
+                        <input type="datetime-local" name="" id="time1" required/><br/>
+                        <label for="timeZones1">Please Select the time Zone</label>
+                        <select name="" id="timeZones1"></select>
+                        <br/><input type="submit" value="Convert">
+                    </form>
+                </div>
+                <div id="timeZone2" class="timeZone">
+                    <h3>Time Zone 2</h3>
+                    <form onsubmit="return changeDate(2)">
+                        <label for="time2">Please enter the Time</label>
+                        <input type="datetime-local" name="" id="time2" required/><br/>
+                        <label for="timeZones2">Please Select the time zone</label>
+                        <select name="" id="timeZones2"></select><br/>
+                        <input type="submit" value="Convert">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>My First Test Project</footer>
+    <script src="finalDateFunctions.js"></script>
+</body>
+</html>

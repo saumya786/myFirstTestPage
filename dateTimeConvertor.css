@@ -1,0 +1,68 @@
+@media screen and (prefers-color-scheme: light){
+    :root{
+        --text-color: #2980b9;
+        --bgcolor: #efee9d;
+        --divcolor: #d1eaa3;
+        --shadowColor: rgba(0,0,0,0.5);
+    }
+}
+@media screen and (prefers-color-scheme: dark){
+    :root{
+        --text-color: #fff;
+        --bgcolor: #2d132c;
+        --divcolor: #801336;
+        --shadowColor: rgba(255,255,255,0.5);
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgcolor);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+header{
+    height: 7vh;
+    overflow: hidden;
+    margin-left: 10px;
+    font-size: 4vh;
+
+}
+main{
+    height: 88vh;
+    overflow-y: auto;
+    text-align: center;
+
+}
+.container1{
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    justify-content: center;
+    align-content: center;
+}
+.timeZone{
+    background-color: var(--divcolor);
+    box-shadow: 0 4px 8px 0 var(--shadowColor);
+}
+.timeZone label{
+    display: block;
+}
+.timeZone input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.timeZone select{
+    margin-top: 10px;
+}
+footer{
+    height: 5vh;
+    overflow: hidden;
+
+    text-align: right;
+    margin-right: 10px;
+    font-size: 2.8vh;
+}
