@@ -26,6 +26,7 @@ function getNumberOfWeekDays(start, end, dayNum= 0){
 /**
  * This function is used to find the changed Date and Set the Date Accordingly
  * @param {Number} timeVal The Particular Block which is to be converted
+ * @author Saumya
  */
 function changeDate(timeVal){
     let currentTime= null,timeToBeSet= null,timeZone1= null,timeZoneToBeConverted= null;
