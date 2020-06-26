@@ -1,10 +1,10 @@
 const staticCacheName= 'site-static-v1';
 const assets = [
-    '/',
-    '/index.html',
-    '/dateTimeConvertor.css',
-    '/finalDateFunctions.js',
-    '/app.js'
+    '/myFirstTestPage',
+    '/myFirstTestPage/index.html',
+    '/myFirstTestPage/dateTimeConvertor.css',
+    '/myFirstTestPage/finalDateFunctions.js',
+    '/myFirstTestPage/app.js'
 ];
 //install service worker
 self.addEventListener('install',evt=>{
