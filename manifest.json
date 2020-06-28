@@ -1,39 +1,39 @@
 {
     "name": "Time Zone Converter",
     "short_name": "TimeZoneConveter",
-    "start_url": "/myFirstTestPage/index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#27ae60",
     "theme_color": "#FFE1C4",
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src" : "/myFirstTestPage/icons/icon-72x72.png",
+            "src" : "./icons/icon-72x72.png",
             "type": "image/png",
             "sizes" : "72x72"
         },
         {
-            "src" : "/myFirstTestPage/icons/icon-96x96.png",
+            "src" : "./icons/icon-96x96.png",
             "type": "image/png",
             "sizes" : "96x96"
         },
         {
-            "src" : "/myFirstTestPage/icons/icon-152x152.png",
+            "src" : "./icons/icon-152x152.png",
             "type": "image/png",
             "sizes" : "152x152"
         },
         {
-            "src" : "/myFirstTestPage/icons/icon-192x192.png",
+            "src" : "./icons/icon-192x192.png",
             "type": "image/png",
             "sizes" : "192x192"
         },
         {
-            "src" : "/myFirstTestPage/icons/icon-384x384.png",
+            "src" : "./icons/icon-384x384.png",
             "type": "image/png",
             "sizes" : "384x384"
         },
         {
-            "src" : "/myFirstTestPage/icons/icon-512x512.png",
+            "src" : "./icons/icon-512x512.png",
             "type": "image/png",
             "sizes" : "512x512"
         }

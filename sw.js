@@ -1,6 +1,6 @@
 const staticCacheName= 'site-static-v2';
 const assets = [
-    '/myFirstTestPage',
+    '/myFirstTestPage/',
     '/myFirstTestPage/index.html',
     '/myFirstTestPage/dateTimeConvertor.css',
     '/myFirstTestPage/finalDateFunctions.js',
